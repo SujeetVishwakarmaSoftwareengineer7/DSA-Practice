@@ -31,6 +31,7 @@ public:
             cout<<" stack is underflow"<<endl;
         }
     }
+
     
     int peek(){
         if( top >= 0){
@@ -48,6 +49,7 @@ public:
             return false;
         }
     }
+ 
 };
 
 int main(){
@@ -55,8 +57,11 @@ int main(){
     st.push(22);
     st.push(43);
     st.push(44);
+    st.push(44);
+   
     cout<<st.peek()<<endl;
-
+    
+  
     if(st.isempty()){
         cout<<" stack is empty mere dost "<<endl;
     }else{
