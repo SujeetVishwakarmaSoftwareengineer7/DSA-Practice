@@ -13,5 +13,7 @@ int main(){
         cout<<" number is odd"<<endl;
     }
     cout<<endl;
+
     return 0;
+    
 }

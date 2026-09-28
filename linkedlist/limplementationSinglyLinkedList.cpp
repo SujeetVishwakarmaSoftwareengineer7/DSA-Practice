@@ -78,7 +78,7 @@ void deletenode( int position , node* &head){
        head = head -> next;
        // memory free start ki  delete the temp node
        temp -> next = NULL;
-       delete(temp);
+       delete temp;
      }
      else{
         //deliting any niddle node or last node
@@ -93,7 +93,7 @@ void deletenode( int position , node* &head){
         }
         prev -> next = curr -> next;
         prev -> next =  NULL;
-        delete(curr);
+        delete curr;
      }
 }
  
