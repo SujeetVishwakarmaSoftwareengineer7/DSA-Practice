@@ -19,6 +19,6 @@ void ReachHome(int src, int destination){
 int main(){
 
 int src = 1;
-int destination = 10;
+int destination = 1
 ReachHome(src, destination);
 }
